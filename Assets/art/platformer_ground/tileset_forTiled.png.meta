@@ -1,0 +1,2492 @@
+fileFormatVersion: 2
+guid: ab1943fa0a9e8e741a11d34145678ae4
+timeCreated: 1501100089
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tileset_forTiled_0
+    21300002: tileset_forTiled_1
+    21300004: tileset_forTiled_2
+    21300006: tileset_forTiled_3
+    21300008: tileset_forTiled_4
+    21300010: tileset_forTiled_5
+    21300012: tileset_forTiled_6
+    21300014: tileset_forTiled_7
+    21300016: tileset_forTiled_8
+    21300018: tileset_forTiled_9
+    21300020: tileset_forTiled_10
+    21300022: tileset_forTiled_11
+    21300024: tileset_forTiled_12
+    21300026: tileset_forTiled_13
+    21300028: tileset_forTiled_14
+    21300030: tileset_forTiled_15
+    21300032: tileset_forTiled_16
+    21300034: tileset_forTiled_17
+    21300036: tileset_forTiled_18
+    21300038: tileset_forTiled_19
+    21300040: tileset_forTiled_20
+    21300042: tileset_forTiled_21
+    21300044: tileset_forTiled_22
+    21300046: tileset_forTiled_23
+    21300048: tileset_forTiled_24
+    21300050: tileset_forTiled_25
+    21300052: tileset_forTiled_26
+    21300054: tileset_forTiled_27
+    21300056: tileset_forTiled_28
+    21300058: tileset_forTiled_29
+    21300060: tileset_forTiled_30
+    21300062: tileset_forTiled_31
+    21300064: tileset_forTiled_32
+    21300066: tileset_forTiled_33
+    21300068: tileset_forTiled_34
+    21300070: tileset_forTiled_35
+    21300072: tileset_forTiled_36
+    21300074: tileset_forTiled_37
+    21300076: tileset_forTiled_38
+    21300078: tileset_forTiled_39
+    21300080: tileset_forTiled_40
+    21300082: tileset_forTiled_41
+    21300084: tileset_forTiled_42
+    21300086: tileset_forTiled_43
+    21300088: tileset_forTiled_44
+    21300090: tileset_forTiled_45
+    21300092: tileset_forTiled_46
+    21300094: tileset_forTiled_47
+    21300096: tileset_forTiled_48
+    21300098: tileset_forTiled_49
+    21300100: tileset_forTiled_50
+    21300102: tileset_forTiled_51
+    21300104: tileset_forTiled_52
+    21300106: tileset_forTiled_53
+    21300108: tileset_forTiled_54
+    21300110: tileset_forTiled_55
+    21300112: tileset_forTiled_56
+    21300114: tileset_forTiled_57
+    21300116: tileset_forTiled_58
+    21300118: tileset_forTiled_59
+    21300120: tileset_forTiled_60
+    21300122: tileset_forTiled_61
+    21300124: tileset_forTiled_62
+    21300126: tileset_forTiled_63
+    21300128: tileset_forTiled_64
+    21300130: tileset_forTiled_65
+    21300132: tileset_forTiled_66
+    21300134: tileset_forTiled_67
+    21300136: tileset_forTiled_68
+    21300138: tileset_forTiled_69
+    21300140: tileset_forTiled_70
+    21300142: tileset_forTiled_71
+    21300144: tileset_forTiled_72
+    21300146: tileset_forTiled_73
+    21300148: tileset_forTiled_74
+    21300150: tileset_forTiled_75
+    21300152: tileset_forTiled_76
+    21300154: tileset_forTiled_77
+    21300156: tileset_forTiled_78
+    21300158: tileset_forTiled_79
+    21300160: tileset_forTiled_80
+    21300162: tileset_forTiled_81
+    21300164: tileset_forTiled_82
+    21300166: tileset_forTiled_83
+    21300168: tileset_forTiled_84
+    21300170: tileset_forTiled_85
+    21300172: tileset_forTiled_86
+    21300174: tileset_forTiled_87
+    21300176: tileset_forTiled_88
+    21300178: tileset_forTiled_89
+    21300180: tileset_forTiled_90
+    21300182: tileset_forTiled_91
+    21300184: tileset_forTiled_92
+    21300186: tileset_forTiled_93
+    21300188: tileset_forTiled_94
+    21300190: tileset_forTiled_95
+    21300192: tileset_forTiled_96
+    21300194: tileset_forTiled_97
+    21300196: tileset_forTiled_98
+    21300198: tileset_forTiled_99
+    21300200: tileset_forTiled_100
+    21300202: tileset_forTiled_101
+    21300204: tileset_forTiled_102
+    21300206: tileset_forTiled_103
+    21300208: tileset_forTiled_104
+    21300210: tileset_forTiled_105
+    21300212: tileset_forTiled_106
+    21300214: tileset_forTiled_107
+    21300216: tileset_forTiled_108
+    21300218: tileset_forTiled_109
+    21300220: tileset_forTiled_110
+    21300222: tileset_forTiled_111
+    21300224: tileset_forTiled_112
+    21300226: tileset_forTiled_113
+    21300228: tileset_forTiled_114
+    21300230: tileset_forTiled_115
+    21300232: tileset_forTiled_116
+    21300234: tileset_forTiled_117
+    21300236: tileset_forTiled_118
+    21300238: tileset_forTiled_119
+    21300240: tileset_forTiled_120
+    21300242: tileset_forTiled_121
+    21300244: tileset_forTiled_122
+    21300246: tileset_forTiled_123
+    21300248: tileset_forTiled_124
+    21300250: tileset_forTiled_125
+    21300252: tileset_forTiled_126
+    21300254: tileset_forTiled_127
+    21300256: tileset_forTiled_128
+    21300258: tileset_forTiled_129
+    21300260: tileset_forTiled_130
+    21300262: tileset_forTiled_131
+    21300264: tileset_forTiled_132
+    21300266: tileset_forTiled_133
+    21300268: tileset_forTiled_134
+    21300270: tileset_forTiled_135
+    21300272: tileset_forTiled_136
+    21300274: tileset_forTiled_137
+    21300276: tileset_forTiled_138
+    21300278: tileset_forTiled_139
+    21300280: tileset_forTiled_140
+    21300282: tileset_forTiled_141
+    21300284: tileset_forTiled_142
+    21300286: tileset_forTiled_143
+    21300288: tileset_forTiled_144
+    21300290: tileset_forTiled_145
+    21300292: tileset_forTiled_146
+    21300294: tileset_forTiled_147
+    21300296: tileset_forTiled_148
+    21300298: tileset_forTiled_149
+    21300300: tileset_forTiled_150
+    21300302: tileset_forTiled_151
+    21300304: tileset_forTiled_152
+    21300306: tileset_forTiled_153
+    21300308: tileset_forTiled_154
+    21300310: tileset_forTiled_155
+    21300312: tileset_forTiled_156
+    21300314: tileset_forTiled_157
+    21300316: tileset_forTiled_158
+    21300318: tileset_forTiled_159
+    21300320: tileset_forTiled_160
+    21300322: tileset_forTiled_161
+    21300324: tileset_forTiled_162
+    21300326: tileset_forTiled_163
+    21300328: tileset_forTiled_164
+    21300330: tileset_forTiled_165
+    21300332: tileset_forTiled_166
+    21300334: tileset_forTiled_167
+    21300336: tileset_forTiled_168
+    21300338: tileset_forTiled_169
+    21300340: tileset_forTiled_170
+    21300342: tileset_forTiled_171
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_forTiled_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 952
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 926
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 880
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 926
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 910
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 910
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 910
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 880
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 880
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 808
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 808
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 838
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 808
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 808
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 808
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 808
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_22
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 808
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 808
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_24
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 808
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_29
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_30
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_31
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_32
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_33
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_34
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_35
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_36
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_37
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_38
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 736
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_39
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 710
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_40
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 664
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 710
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 694
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_43
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 694
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_44
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 694
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_45
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 716
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_46
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 664
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_47
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 716
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_48
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 693
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_49
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 693
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_50
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 693
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 622
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_54
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_55
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_57
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_58
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_59
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_60
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 621
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_61
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_62
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_63
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_64
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 592
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_66
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_67
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_68
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_69
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_70
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_71
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_72
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_73
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_74
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_75
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_76
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_77
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_78
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 520
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_79
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 500
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_80
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 448
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_81
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 500
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_82
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 477
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_83
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 477
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_84
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 477
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_85
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 500
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_86
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 448
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_87
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 500
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_88
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 477
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_89
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 477
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_90
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 477
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_91
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_92
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_93
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 405
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_94
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_95
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_96
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_97
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_98
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_99
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_100
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 405
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_101
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_102
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_103
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_104
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 376
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_105
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_106
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_107
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_108
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_109
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_110
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_111
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_112
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_113
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 304
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_114
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 304
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_115
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 304
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_116
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 306
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_117
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 280
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_118
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 232
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_119
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 280
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_120
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 262
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_121
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 262
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_122
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 262
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_123
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 234
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_124
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 234
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_125
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 234
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_126
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 232
+        width: 16
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_127
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 232
+        width: 5
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_128
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 264
+        width: 70
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_129
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 232
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_130
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_131
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_132
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 190
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_133
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_134
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_135
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_136
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_137
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_138
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_139
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 160
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_140
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 160
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_141
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_142
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_143
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 160
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_144
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_145
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_146
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_147
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 88
+        width: 70
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_148
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 88
+        width: 70
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_149
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_150
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_151
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_152
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_153
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_154
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 88
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_155
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 88
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_156
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 88
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_157
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 88
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_158
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_159
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_160
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_161
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_162
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_163
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_164
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_165
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_166
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_167
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_168
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_169
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_170
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 16
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tileset_forTiled_171
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 16
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

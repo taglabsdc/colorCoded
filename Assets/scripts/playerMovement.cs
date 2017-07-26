@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 public class playerMovement : MonoBehaviour {
-    public enum GameType { platformer, endlessRunner };
+	public enum GameType { platformer, endlessRunner };
 
     public GameType myGame;
     public Transform groundCheckObject;
@@ -44,5 +44,22 @@ public class playerMovement : MonoBehaviour {
         float x = Input.GetAxis("Horizontal");
         Vector3 move = new Vector3(x * speed, rb.velocity.y, 0f);
         rb.velocity = move;
+
+		//If you change the animations it needs to be named properly or the string needs to be changed
+		if (x > 0) {
+			transform.gameObject.GetComponent<Animator> ().Play ("right");
+		}
+		if (x < 0) {
+			transform.gameObject.GetComponent<Animator> ().Play ("left");
+		}
+		if (x == 0) {
+			transform.gameObject.GetComponent<Animator> ().Play ("idle");
+		}
     }
+
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "collectible") {
+			Destroy (col.gameObject);
+		}
+	}
 }
