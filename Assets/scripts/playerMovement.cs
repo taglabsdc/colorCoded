@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class playerMovement : MonoBehaviour {
 	public enum GameType { platformer, endlessRunner };
 
@@ -59,6 +57,10 @@ public class playerMovement : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "collectible") {
+            //make it run a function in the object script that runs the following, this allows the player to set the varibles for the objects
+            //UI change
+            //playsound
+            col.gameObject.GetComponent<genericObjects>().playSound();
 			Destroy (col.gameObject);
 		}
 	}

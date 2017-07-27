@@ -8,6 +8,10 @@ public class genericObjects : MonoBehaviour {
 
 	public objType myIdentity;
 
+    //collectible variables
+    public AudioClip mySound;
+
+
 	// Use this for initialization
 	void Start () {
 		if (myIdentity == objType.collectible) {
@@ -21,4 +25,9 @@ public class genericObjects : MonoBehaviour {
 	void Update () {
 		
 	}
+
+     public void playSound()
+    {
+        Debug.Log(gameObject.name);
+    }
 }
