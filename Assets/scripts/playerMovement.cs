@@ -27,6 +27,8 @@ public class playerMovement : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+
+            //ADD A DOUBLE JUMP!!!
             RaycastHit2D hit = Physics2D.Raycast((Vector2)groundCheckObject.position, Vector2.down, groundCheckDistance);
             if(hit.collider.tag == "ground")
             {

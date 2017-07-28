@@ -7,10 +7,17 @@ public class badGuy : MonoBehaviour {
     public enum Dir { left, right, up, down };
     public Dir direction;
     public float speed;
+
+
     Rigidbody2D rb;
+
+    //move on awake?
+        //needs a trigger buddy
+
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
+        gameObject.tag = "enemy";
         
     }
 	
@@ -41,5 +48,10 @@ public class badGuy : MonoBehaviour {
             Vector3 move = new Vector3(rb.velocity.x, speed, 0f);
             rb.velocity = move;
         }
+    }
+
+    public void _triggered()
+    {
+
     }
 }
