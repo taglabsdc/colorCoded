@@ -7,6 +7,7 @@ public class badGuy : MonoBehaviour {
     public enum Dir { left, right, up, down };
     public Dir direction;
     public float speed;
+    public AudioClip badGuySound;
 
 
     Rigidbody2D rb;

@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
+using UnityEngine.UI;
 
 public enum objType
 {
-    collectible, powerUp, debuff, pusher
+    collectible,
+    powerUp,
+    pusher,
+    //victoryObject
 };
 
 public class genericObjects : MonoBehaviour {
@@ -19,6 +22,8 @@ public class genericObjects : MonoBehaviour {
     
     //collectible variables
     public float value;
+    public Text myCollectible;
+
 
     //pusher variables
     public bool visible_Pusher;
@@ -38,6 +43,7 @@ public class genericObjects : MonoBehaviour {
             gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
             visible_Pusher = true;
         }
+
 		
 	}
 	
@@ -48,7 +54,7 @@ public class genericObjects : MonoBehaviour {
 
      public void playSound()
     {
-        Debug.Log(gameObject.name);
+        Debug.Log(mySound);
     }
 }
 
@@ -69,13 +75,12 @@ public class genericObjectsEditor : Editor
 
         if (myGui.myIdentity == objType.pusher) // PUSH OBJECT
         {
-            myGui.pushPower = EditorGUILayout.FloatField("Push Power", myGui.pushPower);
-            
+            myGui.pushPower = EditorGUILayout.FloatField("Push Power", myGui.pushPower);            
         }
 
         if(myGui.myIdentity == objType.collectible)
         {
-
+            myGui.value = EditorGUILayout.FloatField("Value", myGui.value);
         }
     }
 }

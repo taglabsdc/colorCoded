@@ -6,9 +6,10 @@ TagManager:
   tags:
   - ground
   - collectible
-  - door
   - enemy
   - pusher
+  - trap
+  - victory
   layers:
   - Default
   - TransparentFX
