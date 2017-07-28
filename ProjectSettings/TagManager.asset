@@ -8,6 +8,7 @@ TagManager:
   - collectible
   - door
   - enemy
+  - pusher
   layers:
   - Default
   - TransparentFX
