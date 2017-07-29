@@ -4,20 +4,24 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 using UnityEngine.UI;
+//using AssemblyCSharp;
 
-public enum winSetting { collectWin, enemyWin, itemWin };
 
 
 
 public class gameManager : MonoBehaviour {
+	public enum winSetting { collectWin, enemyWin, itemWin };
 
-    public static gameManager instance = null;
+    public static gameManager instance;
+
+
 
     [Tooltip("NEXT LEVEL NAME: type in the name of the next level (case sensitive), will load next scene the win function is used")]
     public string nextLevelName;
 
     [Tooltip("This should be found as a text Object under the canvas_UserInterace prefab /Assets/prefabs")]
     public Text winText;
+	public Text coinText; 
 
     [Tooltip(" Collect Win: find enough collectibles to win. \nEnemy Win: defeat enough enemies to win. \nItem Win: grab an object or run into object (door, castle, flag) to win")]
     public winSetting winCondition;
@@ -64,7 +68,7 @@ public class gameManager : MonoBehaviour {
             if (current_Collect == collectCount)
             {
                 won = true;
-                winText.gameObject.SetActive(true);
+                //winText.gameObject.SetActive(true);
                 Invoke("loadLevel", nextLevelDelay);
             }
         }
@@ -78,52 +82,11 @@ public class gameManager : MonoBehaviour {
     {
         SceneManager.LoadScene(nextLevelName);
     }
-}
+
+	public void changeCoinText(){
 
 
-
-[CustomEditor(typeof(gameManager))]
-public class gameManagerEditor : Editor
-{
-    override public void OnInspectorGUI()
-    {
-        gameManager GM = target as gameManager;
-
-        GM.nextLevelName = EditorGUILayout.TextField("Next Level Name", GM.nextLevelName);
-
-        GM.winText = (Text)EditorGUILayout.ObjectField("Win Text", GM.winText, typeof(Text), true);
-
-        GM.nextLevelDelay = EditorGUILayout.FloatField("Next Level Delay", GM.nextLevelDelay);
-
-        GM.winCondition = (winSetting)EditorGUILayout.EnumPopup(GM.winCondition);
-        
-        
-
-      //*******WIN CONDITION*************
-        if(GM.winCondition == winSetting.collectWin)
-        {
-            GM.collectCount = EditorGUILayout.IntField("Collect Count: ", GM.collectCount);
-        }
-        if(GM.winCondition == winSetting.enemyWin)
-        {
-            GM.enemyCount = EditorGUILayout.IntField("Enemy Count: ", GM.enemyCount);
-        } 
-
-        if(GM.winCondition == winSetting.itemWin)
-        {
-            GM.questItem = (GameObject)EditorGUILayout.ObjectField("Quest Item", GM.questItem, typeof(GameObject), true);
-            if(GM.questItem != null)
-            {
-                GM.questItem.tag = "victory";
-                if(GM.questItem.GetComponent<BoxCollider2D>() != null)
-                {
-                    GM.questItem.GetComponent<BoxCollider2D>().isTrigger = true;
-                }
-            }
-            
-        } //End of ITEM WIN
-
-    }
-
+		coinText.text = "Test";
+	}
 }
 

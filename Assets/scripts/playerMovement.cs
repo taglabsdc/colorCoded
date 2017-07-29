@@ -32,11 +32,16 @@ public class playerMovement : MonoBehaviour {
     Vector2 pushDir;
     float pushPower;
 
+	private GameObject coinText; 
+
     void Start()
     {       
         beingPushed = false; 
         rb = GetComponent<Rigidbody2D>();
         Debug.Log("You chose " + myGame + "! Good Luck designer!");
+
+
+
     }
 
 
@@ -108,6 +113,13 @@ public class playerMovement : MonoBehaviour {
             //playsound
             //col.gameObject.GetComponent<genericObjects>().playSound();
             col.gameObject.SetActive(false);
+			//Grab Coin Text
+			gameManager.instance.changeCoinText();
+
+			//Change UI 
+			//coinText.text = "Test";
+
+
 		}
 
 
@@ -126,6 +138,11 @@ public class playerMovement : MonoBehaviour {
                 //play sound       
             rb.AddForce(transform.up * col.GetComponent<genericObjects>().pushPower, ForceMode2D.Impulse);
         }
+
+		if (col.gameObject.tag == "Death") {
+
+			Debug.Log ("Your Character Died!");
+		}
 	}
 
 

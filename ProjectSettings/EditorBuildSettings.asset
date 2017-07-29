@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/lvl2.unity
     guid: e6503791c0b9c164db48933fe55d8dee
+  - enabled: 1
+    path: Assets/scenes/Kreston Scene.unity
+    guid: 0d0606cf878dd4dcfbb9c1bbcc24c299

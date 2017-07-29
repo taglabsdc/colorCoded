@@ -10,6 +10,7 @@ TagManager:
   - pusher
   - trap
   - victory
+  - Death
   layers:
   - Default
   - TransparentFX

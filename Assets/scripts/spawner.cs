@@ -11,6 +11,7 @@ public class adv : System.Object
     [Tooltip("SPAWN RUN TIME: Use this to set the amount of time (in seconds) you want your spawner to run")]
     public float spawnRunTime;
 
+
     //[Tooltip("TRIGGER: requires a gameObject with a collider set to Is Trigger, when the player collides with trigger it starts/stops the spawner")]
     //public GameObject trigger;
 }
@@ -61,3 +62,4 @@ public class spawner : MonoBehaviour {
 
     }
 }
+
