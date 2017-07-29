@@ -15,7 +15,7 @@ public class PhysControl : System.Object
 
 
 public class playerMovement : MonoBehaviour {
-	public enum GameType { platformer, endlessRunner };
+	public enum GameType { platformer };
 
     public GameType myGame;
     public Transform groundCheckObject;
@@ -24,19 +24,31 @@ public class playerMovement : MonoBehaviour {
     public float jumpForce;
     public float speed;
 
+    [Tooltip("The number of times you can collide with an enemy")]
+    public int HitPoints;
 
     public PhysControl physControl;
     Rigidbody2D rb; //grabs the object's rigidBody
 
-    bool beingPushed;
+    public AudioClip playerHurt;
+    AudioSource dio;
     Vector2 pushDir;
     float pushPower;
 
+
+    void Awake()
+    {
+        this.gameObject.SetActive(true);
+    }
     void Start()
-    {       
-        beingPushed = false; 
+    {
+        dio = GetComponent<AudioSource>();
+        
         rb = GetComponent<Rigidbody2D>();
-        Debug.Log("You chose " + myGame + "! Good Luck designer!");
+        
+
+        //set player health and associated UI
+        gameManager.instance.text_PlayerHealth.text = "HP: " + HitPoints;
     }
 
 
@@ -45,7 +57,7 @@ public class playerMovement : MonoBehaviour {
     {
         Debug.DrawRay(groundCheckObject.position, Vector3.down * groundCheckDistance, Color.red);
 
-        Debug.Log(gameManager.instance.current_Enemy + " ? " + gameManager.instance.enemyCount);
+       
         Vector2.ClampMagnitude(rb.velocity, 6.5f);
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -96,26 +108,29 @@ public class playerMovement : MonoBehaviour {
         }
     }
 
-    void endlessRunner_Controls()
-    {
-
-    }
-
+   
+    //Checks if collider(s) attached to this object overalp with another collider(s)
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "collectible") {
             //make it run a function in the object script that runs the following, this allows the player to set the varibles for the objects
-            //UI change
+            
+            gameManager.instance.current_Collect += 1;
+
+            gameManager.instance.collectUI.text = "x" + gameManager.instance.current_Collect;
             //playsound
             //col.gameObject.GetComponent<genericObjects>().playSound();
+
             col.gameObject.SetActive(false);
 		}
-
 
         if(col.gameObject.tag == "enemy")
         {
             gameManager.instance.current_Enemy++;
-            //if col.sound != null
-                //play sound
+            if(col.GetComponent<badGuy>().badGuySound != null)
+            {
+                dio.PlayOneShot(col.GetComponent<badGuy>().badGuySound);
+            }
+                
             Vector3 move = new Vector3(rb.velocity.x, physControl.enemyBounce_Amount, 0f);
             rb.velocity = move;
             col.gameObject.SetActive(false);
@@ -126,9 +141,39 @@ public class playerMovement : MonoBehaviour {
                 //play sound       
             rb.AddForce(transform.up * col.GetComponent<genericObjects>().pushPower, ForceMode2D.Impulse);
         }
+
+        if(col.gameObject.tag == "powerUp")
+        {
+            HitPoints++;
+            if(col.GetComponent<genericObjects>().mySound != null)
+                dio.PlayOneShot(col.GetComponent<genericObjects>().mySound);
+            col.gameObject.SetActive(false);
+            gameManager.instance.text_PlayerHealth.text = "HP: " + HitPoints;
+        }
+
+        if(col.gameObject.tag == "victory")
+        {
+            gameManager.instance.runWin();
+        }
 	}
 
+    //Checks for physical collision between the 2D collider(s) attached to the object
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "enemy")
+        {
+            HitPoints--;
+            gameManager.instance.text_PlayerHealth.text = "HP: " + HitPoints;
+            //ContactPoint2D contact = col.contacts[0];
+            if (playerHurt != null)
+                dio.PlayOneShot(playerHurt);
+            if(HitPoints <= 0)
+            {
+                gameManager.instance.runLost();
+            }
+        }
 
+    }
 }
 
 

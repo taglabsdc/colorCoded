@@ -8,6 +8,7 @@ public class badGuy : MonoBehaviour {
     public Dir direction;
     public float speed;
     public AudioClip badGuySound;
+   
 
 
     Rigidbody2D rb;
@@ -24,7 +25,8 @@ public class badGuy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        moveDir();
+        if(!gameManager.instance.won)
+            moveDir();
     }
 
     public void moveDir()

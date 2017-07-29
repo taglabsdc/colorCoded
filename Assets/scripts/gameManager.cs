@@ -24,11 +24,20 @@ public class gameManager : MonoBehaviour {
 
     public float nextLevelDelay;
 
+    //CollectWin elements
     public int collectCount;
-    public int enemyCount;
-    public GameObject questItem;
     public int current_Collect;
+    [Tooltip("This is the UI text object that will display how many objects you've collected")]
+    public Text collectUI;
+
+    //EnemyWin elements
+    public int enemyCount;
     public int current_Enemy;
+
+    public GameObject questItem;
+
+    public Text text_PlayerHealth;
+
     public bool won;
 
     void Awake()
@@ -37,15 +46,21 @@ public class gameManager : MonoBehaviour {
             instance = this;
         else if (instance != this)
             Destroy(gameObject);
+
+        //GameObject p = GameObject.FindGameObjectWithTag("Player");
+        //p.SetActive(true);
     }
 
             // Use this for initialization
     void Start () {
+        
         winText.gameObject.SetActive(false);
         current_Enemy = 0;
         current_Collect = 0;
         won = false;
-        Debug.Log(current_Enemy + " : " + enemyCount);
+        collectUI.text = "x"+current_Collect;
+
+        
 	}
 	
 	// Update is called once per frame
@@ -54,25 +69,50 @@ public class gameManager : MonoBehaviour {
         {
             if (current_Enemy == enemyCount)
             {
-                won = true;
-                winText.gameObject.SetActive(true);
-                Invoke("loadLevel", nextLevelDelay);
+                runWin();
             }
         }
         if(winCondition == winSetting.collectWin)
         {
             if (current_Collect == collectCount)
             {
-                won = true;
-                winText.gameObject.SetActive(true);
-                Invoke("loadLevel", nextLevelDelay);
+                runWin();
             }
         }
 
         	
 	}
 
+    public void runWin()
+    {
+        won = true;
+        winText.text = "You Win";
+        winText.gameObject.SetActive(true);
+        
+        if(nextLevelName != null)
+        {
+            if (!string.IsNullOrEmpty(nextLevelName))
+            {
+                Invoke("loadLevel", nextLevelDelay);
+            }
+        }     
+    }
 
+    public void runLost()
+    {
+        winText.text = "Game Over";
+        winText.gameObject.SetActive(true);
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+        p.SetActive(false);
+        
+           
+        Invoke("restartLevel", nextLevelDelay);
+    }
+
+    public void restartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     public void loadLevel()
     {
@@ -96,17 +136,22 @@ public class gameManagerEditor : Editor
         GM.nextLevelDelay = EditorGUILayout.FloatField("Next Level Delay", GM.nextLevelDelay);
 
         GM.winCondition = (winSetting)EditorGUILayout.EnumPopup(GM.winCondition);
-        
-        
 
-      //*******WIN CONDITION*************
-        if(GM.winCondition == winSetting.collectWin)
+        GM.collectUI = (Text)EditorGUILayout.ObjectField("Collectible Text Object", GM.collectUI, typeof(Text), true);
+
+        GM.text_PlayerHealth = (Text)EditorGUILayout.ObjectField("Player Health Text Object", GM.text_PlayerHealth, typeof(Text), true);
+
+
+        //*******WIN CONDITION*************
+        if (GM.winCondition == winSetting.collectWin)
         {
             GM.collectCount = EditorGUILayout.IntField("Collect Count: ", GM.collectCount);
+            
         }
         if(GM.winCondition == winSetting.enemyWin)
         {
             GM.enemyCount = EditorGUILayout.IntField("Enemy Count: ", GM.enemyCount);
+            
         } 
 
         if(GM.winCondition == winSetting.itemWin)

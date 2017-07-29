@@ -21,8 +21,9 @@ public class genericObjects : MonoBehaviour {
     public AudioClip mySound;
     
     //collectible variables
-    public float value;
-    public Text myCollectible;
+  
+
+
 
 
     //pusher variables
@@ -44,6 +45,10 @@ public class genericObjects : MonoBehaviour {
             visible_Pusher = true;
         }
 
+        if(myIdentity == objType.powerUp)
+        {
+            gameObject.tag = "powerUp";
+        }
 		
 	}
 	
@@ -78,9 +83,5 @@ public class genericObjectsEditor : Editor
             myGui.pushPower = EditorGUILayout.FloatField("Push Power", myGui.pushPower);            
         }
 
-        if(myGui.myIdentity == objType.collectible)
-        {
-            myGui.value = EditorGUILayout.FloatField("Value", myGui.value);
-        }
     }
 }

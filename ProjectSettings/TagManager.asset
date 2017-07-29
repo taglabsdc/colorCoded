@@ -10,6 +10,7 @@ TagManager:
   - pusher
   - trap
   - victory
+  - powerUp
   layers:
   - Default
   - TransparentFX
